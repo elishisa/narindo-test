@@ -18,7 +18,7 @@
             <p class="fs-20-b mb-2">Info Narindo</p>
             <ul class="footer_nav">
               <li>
-                <a href="https://gudangada.id/" target="_blank">Tentang Kami</a>
+                <a href="http://www.narindo.com/" target="_blank">Tentang Kami</a>
               </li>
             </ul>
           </div>
