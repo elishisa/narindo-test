@@ -10,8 +10,10 @@ if ("serviceWorker" in navigator) {
   });
 
   wb.register();
+  console.log(`Yay! Workbox is loaded 🎉`);
 } else {
   wb = null;
+  console.log(`Boo! Workbox didn't load 😬`);
 }
 
 export default wb;
