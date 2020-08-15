@@ -13,7 +13,7 @@
         <!-- LOGO START -->
         <div class="col-lg-2 col-md-7 col-sm-7 col-7 text-right">
           <div class="logo_container">
-            <img src="../assets/logo.png" style="width: 60px;" />
+            <img src="../assets/images/logo-1.jpg" style="width: 60px;" />
           </div>
         </div>
         <!-- LOGO END -->

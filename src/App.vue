@@ -4,6 +4,17 @@
   </div>
 </template>
 
+<script>
+export default {
+  created() {
+    if (this.$workbox) {
+      this.$workbox.addEventListener("waiting", () => {
+        this.showUpgradeUI = true;
+      });
+    }
+  },
+};
+</script>
 <style lang="scss">
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
