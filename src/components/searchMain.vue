@@ -10,7 +10,7 @@
           />
           <div class="input-group-append">
             <button id="button-addon1" type="submit" class="btn btn-search text-primary bg-light">
-              <i class="fa fa-search" style="color: #595959;"></i>
+              <img src="../assets/images/search.png" style="width: 15px" title="Notifikasi" />
             </button>
           </div>
         </div>

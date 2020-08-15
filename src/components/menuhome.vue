@@ -27,26 +27,6 @@
             </div>
           </div>
         </div>
-        <div class="col-lg-2 col-md-3">
-          <div class="card-menu-box">
-            <img src="../assets/images/image 68.png" height="100px" />
-            <div class="login-inner">
-              <p class="fs-20">Jual</p>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-2 col-md-3">
-          <div
-            class="card-menu-box"
-            @click="$bvModal.show('modal-check-user-status-is-seller')"
-            style="cursor: pointer;"
-          >
-            <img src="../assets/images/image 68.png" height="100px" />
-            <div class="login-inner">
-              <p class="fs-20">Jual</p>
-            </div>
-          </div>
-        </div>
         <!--  -->
         <!-- MENU VOUCHER -->
         <div class="col-lg-2 col-md-3">

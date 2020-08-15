@@ -11,7 +11,7 @@
         </div>
 
         <!-- LOGO START -->
-        <div class="col-lg-2 col-md-7 col-sm-7 col-7 text-right">
+        <div class="col-lg-2 col-md-2 col-sm-2 col-7 text-right">
           <div class="logo_container">
             <img src="../assets/images/logo-1.jpg" style="width: 60px;" />
           </div>
@@ -19,7 +19,7 @@
         <!-- LOGO END -->
 
         <!-- SEARCH BOX START -->
-        <div class="col-lg-6 search-main-gada">
+        <div class="col-lg-6 col-sm-2 search-main-gada">
           <!-- Call component search-->
           <div class="mt-4">
             <search />
@@ -28,7 +28,7 @@
         <!-- SEARCH BOX END -->
 
         <!-- ACCOUNT USER START -->
-        <div class="col-lg-4 col-md-3 col-sm-3">
+        <div class="col-lg-4 col-md-10 col-sm-10">
           <div class="row">
             <!-- NAVBAR DROPDOWN START -->
             <nav class="navbar navbar_user col-md-7 d-none d-lg-block pt-3">
@@ -343,34 +343,34 @@
               <nav class="navbar">
                 <ul class="navbar_user" style="display: inline-flex; padding: 10px 20px 10px 10px;">
                   <!-- NAVBAR DROPDOWN KERANJANG START -->
-                  <li class="dropdown checkout">
+                  <li class="dropdown checkout col-sm-6">
                     <i class="fa" aria-hidden="true">
-                      <!-- <img
-                          :src="`${$store.getters.assetsPath}images/icon/ic_cart.svg`"
-                          style="width: 32px"
-                          title="Keranjang"
-                      />-->
+                      <img
+                        src="../assets/images/shopping-cart-grey 1.png"
+                        style="width: 32px"
+                        title="Keranjang"
+                      />
                     </i>
                     <!-- <i class="fas fa-shopping-cart color-grey" style="font-size: 25px"></i> -->
                     <span id="checkout_items" class="checkout_items">{{ 10 }}</span>
                   </li>
                   <!-- NAVBAR DROPDOWN NOTIFIKASI START -->
-                  <li class="dropdown checkout">
+                  <li class="dropdown checkout col-sm-6">
                     <i class="fa" aria-hidden="true">
-                      <!-- <img
-                          :src="`${$store.getters.assetsPath}images/icon/ic_notif.svg`"
-                          style="width: 28px"
-                          title="Notifikasi"
-                      />-->
+                      <img
+                        src="../assets/images/bell-grey.png"
+                        style="width: 28px"
+                        title="Notifikasi"
+                      />
                     </i>
-                    <!-- <i class="fas fa-bell color-grey" style="font-size: 25px;"></i> -->
+                    <i class="fas fa-bell color-grey" style="font-size: 25px;"></i>
 
                     <span id="checkout_items" class="checkout_items">9+</span>
                   </li>
                   <!-- NAVBAR DROPDOWN SEARCH START -->
-                  <li class="dropdown checkout">
+                  <li class="dropdown checkout col-sm-6">
                     <a @click="isShowSearch = !isShowSearch">
-                      <i class="fas fa-search color-grey" style="font-size: 20px;"></i>
+                      <img src="../assets/images/search.png" style="width: 28px" title="Notifikasi" />
                     </a>
                   </li>
                 </ul>
@@ -450,6 +450,7 @@ export default {
   border-color: #00bcb8;
   margin: auto;
   cursor: pointer;
+  margin-right: 10px;
 }
 .cart {
   position: absolute;
