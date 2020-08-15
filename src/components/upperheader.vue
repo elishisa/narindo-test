@@ -48,12 +48,14 @@ export default {
 <style>
 .download a {
   color: #ffffff;
+  text-align: left;
 }
 .download:hover {
   color: #ffffff;
 }
 .text-link-white {
   color: #ffffff;
+  margin-left: -28rem;
 }
 .text-link-white:hover {
   color: #e6faf9;
