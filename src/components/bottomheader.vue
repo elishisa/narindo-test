@@ -49,7 +49,7 @@
                   <ul class="dropdown-menu ml-min100">
                     <li style="width: 200px;">
                       <div class="row">
-                        <div @click="goToTransaksiBeli" class="col-lg-12" style="cursor: pointer">
+                        <div class="col-lg-12" style="cursor: pointer">
                           <div class="row">
                             <div class="col-lg-8">
                               <p class="fs-16">Transaksi Beli</p>
@@ -60,11 +60,7 @@
                           </div>
                         </div>
 
-                        <div
-                          @click="showModalBelumTerdaftarBeli"
-                          class="col-lg-12"
-                          style="cursor: pointer"
-                        >
+                        <div class="col-lg-12" style="cursor: pointer">
                           <div class="row">
                             <div class="col-lg-8">
                               <p class="fs-16">Transaksi Beli</p>
@@ -82,7 +78,7 @@
                         <!--JIKA SUDAH REGISTRASI JUAL DAN BELI-->
                       </div>
                       <div class="row">
-                        <div @click="goToTransaksiJual" class="col-lg-12" style="cursor: pointer">
+                        <div class="col-lg-12" style="cursor: pointer">
                           <div class="row">
                             <div class="col-lg-8">
                               <p class="fs-16">Transaksi Jual</p>
@@ -101,11 +97,7 @@
 
                       <!--BELUM REGISTRASI JUAL-->
                       <div class="row">
-                        <div
-                          @click="showModalBelumTerdaftar"
-                          class="col-lg-12"
-                          style="cursor: pointer"
-                        >
+                        <div class="col-lg-12" style="cursor: pointer">
                           <div class="row">
                             <div class="col-lg-8">
                               <p class="fs-16">Transaksi Jual</p>
@@ -123,11 +115,7 @@
 
                       <!--SEDANG VERIFIKASI-->
                       <div class="row">
-                        <div
-                          @click="showModalSedangVerif"
-                          class="col-lg-12"
-                          style="cursor: pointer"
-                        >
+                        <div class="col-lg-12" style="cursor: pointer">
                           <div class="row">
                             <div class="col-lg-8">
                               <p class="fs-16">Transaksi Jual</p>
@@ -145,11 +133,7 @@
                       <!--END-->
                       <!--BELUM REGISTRASI BELI-->
                       <div class="row">
-                        <div
-                          @click="showModalBelumTerdaftarBeli"
-                          class="col-lg-12"
-                          style="cursor: pointer"
-                        >
+                        <div class="col-lg-12" style="cursor: pointer">
                           <div class="row">
                             <div class="col-lg-8">
                               <p class="fs-16">Transaksi Jual</p>
@@ -168,11 +152,7 @@
                     </li>
                     <li>
                       <div class="row">
-                        <div
-                          @click="goToRiwayatTransaksi"
-                          class="col-lg-12"
-                          style="cursor: pointer"
-                        >
+                        <div class="col-lg-12" style="cursor: pointer">
                           <div class="row">
                             <div class="col-lg-12">
                               <p class="fs-16">Riwayat Transaksi</p>

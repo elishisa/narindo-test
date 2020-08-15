@@ -123,11 +123,7 @@ export default {
     };
   },
 
-  mounted() {
-    this.slideType();
-    this.checkIsBuyer();
-    this.getCategories();
-  },
+  mounted() {},
 
   methods: {
     async getSlideShow() {},

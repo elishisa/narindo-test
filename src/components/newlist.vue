@@ -19,24 +19,17 @@
       </div>
       <div class="row">
         <div class="col-lg-3 col-md-3" v-for="(item, index) in dataNews" :key="index">
-          <nuxt-link
-            :to="{
-            name : 'berita-detail',
-            query: { id : item.news_id }
-          }"
-          >
-            <div class="berita-box">
-              <div style="height: 120px;" class="mb-3">
-                <img :src="item.news_image" />
-              </div>
-              <div class="berita-inner text-left">
-                <p class="fs-16-b text-truncate-multi">{{ item.news_title }}</p>
-                <p class="fs-12 text-truncate-multi">
-                  <span v-html="item.news_description"></span>
-                </p>
-              </div>
+          <div class="berita-box">
+            <div style="height: 120px;" class="mb-3">
+              <img :src="item.news_image" />
             </div>
-          </nuxt-link>
+            <div class="berita-inner text-left">
+              <p class="fs-16-b text-truncate-multi">{{ item.news_title }}</p>
+              <p class="fs-12 text-truncate-multi">
+                <span v-html="item.news_description"></span>
+              </p>
+            </div>
+          </div>
         </div>
       </div>
     </div>

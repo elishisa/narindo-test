@@ -1,7 +1,7 @@
 <template>
   <div>
     <form @submit.prevent autocomplete="off">
-      <div class="shik-border rounded-pill" id="overlay" onclick="off()">
+      <div class="shik-border rounded-pill" id="overlay">
         <div class="input-group">
           <b-form-input
             type="text"
@@ -9,12 +9,7 @@
             class="form-control search border-0 grey-text shik-fz"
           />
           <div class="input-group-append">
-            <button
-              id="button-addon1"
-              type="submit"
-              @click="enterKeyword"
-              class="btn btn-search text-primary bg-light"
-            >
+            <button id="button-addon1" type="submit" class="btn btn-search text-primary bg-light">
               <i class="fa fa-search" style="color: #595959;"></i>
             </button>
           </div>
