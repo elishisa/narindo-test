@@ -11,7 +11,7 @@
         </div>
 
         <!-- LOGO START -->
-        <div class="col-lg-2 col-md-2 col-sm-2 col-7 text-right">
+        <div class="col-lg-2 col-md-2 col-sm-2 col-2 text-right">
           <div class="logo_container">
             <img src="../assets/images/logo-1.jpg" style="width: 60px;" />
           </div>
@@ -28,7 +28,7 @@
         <!-- SEARCH BOX END -->
 
         <!-- ACCOUNT USER START -->
-        <div class="col-lg-4 col-md-10 col-sm-10">
+        <div class="col-lg-4 col-md-10 col-sm-10 col-10">
           <div class="row">
             <!-- NAVBAR DROPDOWN START -->
             <nav class="navbar navbar_user col-md-7 d-none d-lg-block pt-3">
@@ -341,10 +341,10 @@
             <div class="activity-menu-mobile">
               <!-- NAVBAR DROPDOWN START -->
               <nav class="navbar">
-                <ul class="navbar_user" style="display: inline-flex; padding: 10px 20px 10px 10px;">
+                <ul class="navbar_user" style="display: inline-flex; padding: 1px 0px 0px 0px;">
                   <!-- NAVBAR DROPDOWN KERANJANG START -->
 
-                  <li class="dropdown checkout col-sm-6">
+                  <li class="dropdown checkout col-sm-6 col-3">
                     <a
                       href="#"
                       role="button"
@@ -366,7 +366,7 @@
                   </li>
 
                   <!-- NAVBAR DROPDOWN NOTIFIKASI START -->
-                  <li class="dropdown checkout col-sm-6">
+                  <li class="dropdown checkout col-sm-6 col-3">
                     <a
                       href="#"
                       role="button"
@@ -388,7 +388,7 @@
                     </a>
                   </li>
                   <!-- NAVBAR DROPDOWN SEARCH START -->
-                  <li class="dropdown checkout col-sm-6">
+                  <li class="dropdown checkout col-sm-6 col-3">
                     <a @click="isShowSearch = !isShowSearch">
                       <img src="../assets/images/search.png" style="width: 28px" title="Notifikasi" />
                     </a>
