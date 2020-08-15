@@ -343,29 +343,49 @@
               <nav class="navbar">
                 <ul class="navbar_user" style="display: inline-flex; padding: 10px 20px 10px 10px;">
                   <!-- NAVBAR DROPDOWN KERANJANG START -->
+
                   <li class="dropdown checkout col-sm-6">
-                    <i class="fa" aria-hidden="true">
-                      <img
-                        src="../assets/images/shopping-cart-grey 1.png"
-                        style="width: 32px"
-                        title="Keranjang"
-                      />
-                    </i>
-                    <!-- <i class="fas fa-shopping-cart color-grey" style="font-size: 25px"></i> -->
-                    <span id="checkout_items" class="checkout_items">{{ 10 }}</span>
+                    <a
+                      href="#"
+                      role="button"
+                      id="dropdownMenuLink"
+                      data-toggle="dropdown"
+                      aria-haspopup="true"
+                      aria-expanded="false"
+                    >
+                      <i class="fa" aria-hidden="true">
+                        <img
+                          src="../assets/images/shopping-cart-grey 1.png"
+                          style="width: 32px"
+                          title="Keranjang"
+                        />
+                      </i>
+                      <!-- <i class="fas fa-shopping-cart color-grey" style="font-size: 25px"></i> -->
+                      <span id="checkout_items" class="checkout_items">{{ 10 }}</span>
+                    </a>
                   </li>
+
                   <!-- NAVBAR DROPDOWN NOTIFIKASI START -->
                   <li class="dropdown checkout col-sm-6">
-                    <i class="fa" aria-hidden="true">
-                      <img
-                        src="../assets/images/bell-grey.png"
-                        style="width: 28px"
-                        title="Notifikasi"
-                      />
-                    </i>
-                    <i class="fas fa-bell color-grey" style="font-size: 25px;"></i>
+                    <a
+                      href="#"
+                      role="button"
+                      id="dropdownMenuLink"
+                      data-toggle="dropdown"
+                      aria-haspopup="true"
+                      aria-expanded="false"
+                    >
+                      <i class="fa" aria-hidden="true">
+                        <img
+                          src="../assets/images/bell-grey.png"
+                          style="width: 28px"
+                          title="Notifikasi"
+                        />
+                      </i>
+                      <i class="fas fa-bell color-grey" style="font-size: 25px;"></i>
 
-                    <span id="checkout_items" class="checkout_items">9+</span>
+                      <span id="checkout_items" class="checkout_items">9+</span>
+                    </a>
                   </li>
                   <!-- NAVBAR DROPDOWN SEARCH START -->
                   <li class="dropdown checkout col-sm-6">
